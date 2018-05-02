@@ -1256,6 +1256,66 @@
       "authorName": "Erin Bell",
       "pointValue": 5,
       "category_name": "Algebra II"
+    },
+    {
+      "id": "769",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "In a star, gravity is trying to:",
+      "helpText": null,
+      "choices": [
+        "Expand the star outward (make it bigger)",
+        "Pull the star into itself (make it smaller)",
+        "Move the star closer to other stars",
+        "Turn it into a black hole"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "AstroAdventurers!",
+      "solution": "Turn it into a black hole",
+      "solutionText": "Gravity is always pulling toward the center of an object, trying to collapse a star in on itself, making the star smaller. In high mass stars, this could result in the formation of a black hole, but most stars don't have enough mass for this to happen. Even in these smaller stars, gravity is still pulling the star in on itself.",
+      "solutionMediaUrl": "",
+      "correct": false
+    },
+    {
+      "id": "770",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "In a star, energy is trying to",
+      "helpText": null,
+      "choices": [
+        "Turn it into a black hole",
+        "Pull the star into itself (make it smaller)",
+        "Expand the star outward (make it bigger)",
+        "Move the star closer to other stars"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "AstroAdventurers!",
+      "solution": "Expand the star outward (make it bigger)",
+      "solutionText": "The energy from the fusion of elements in the core of a star is constantly pushing a star outward, expanding and getting bigger. Things with higher energy generally move faster and collide with the materials around them, causing them to be pushed outward. When this is happening all throughout the star, the effect is a \"pushing\" outward from the center of the star.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "771",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "What causes spaghettification?",
+      "helpText": null,
+      "choices": [
+        "Event Horizon",
+        "Kinetic Energy",
+        "Tidal Forces",
+        "Gravity shear"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "AstroAdventurers!",
+      "solution": "Tidal Forces",
+      "solutionText": "Spaghettification is what happens to something that gets pulled into a black hole. The tidal forces from the difference in gravity on one end of an object compared to the gravity on the opposite end of the object are enough to stretch out the object falling into the black hole like a piece of spaghetti.",
+      "solutionMediaUrl": "",
+      "correct": true
     }
   ],
   "categories": [

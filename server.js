@@ -189,16 +189,20 @@ app.get('/contestant/:id/answer_questions', async (req, res) => {
 
   let categories = await request.get('http://35.230.22.110/api/categories?contestantId=' + contestant.contestant_id)
 
+  categories = JSON.parse(categories);
+
   let category = null;
   let question = null;
-  for (let i = 0; i < contestant.questions.length; i++) {
-    category = contestant.questions[i];
+  for (let i = 0; i < categories.length; i++) {
+    category = categories[i];
+    console.log(category.name)
     question = await request.get('http://35.230.22.110/api/questions?contestantId=' +
       contestant.contestant_id +
       '&categoryId=' +
       encodeURIComponent(category.name) +
       '&limit=1');
     question = JSON.parse(question);
+    console.log("question error???")
     if(question.length > 0) {
       question = question[0];
       
@@ -267,29 +271,12 @@ app.post('/contestant/:id/submit_question', async (req, res) => {
     }).write()
   } else {
     db.get('questions').find({id: orig_question.id}).assign({
-      solution: null,
+      solution: response.correctValue,
       solutionText: response.solutionText,
       solutionMediaUrl: response.solutionMediaUrl,
       correct: false,
     }).write()
   };
-
-  res.render('review_answer', {
-    title: 'Review Answer',
-    page: 'review_answer-page',
-    contestant_id: req.body.contestant_id,
-    category: req.body.category_name,
-    category_id: req.body.category_id,
-    orig_question: orig_question,
-    response: response
-  });
-});
-
-app.post('/contestant/:id/revise_answer', async (req, res) => {
-  db.get('questions').find({id: orig_question.id}).assign({
-    solution: req.body.answer,
-    correct: null,
-  }).write()
 
   res.render('review_answer', {
     title: 'Review Answer',

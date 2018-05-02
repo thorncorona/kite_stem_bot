@@ -10,7 +10,9 @@
         </div>
         <div class="card-body">
           <p class="lead">
-            Your answer was {{#if response.isCorrect}} correct! {{else}} incorrect {{/if}}</p>
+            Your answer was {{#if response.isCorrect}} correct! {{else}} incorrect, correct answer was {{response.correctValue}} {{/if}}
+            </p>
+            
           <div>
             Points earned: {{response.pointsFeedback}}
             <br /> Remaining questions in category: {{response.numRemainingQuestions}}
@@ -65,11 +67,7 @@
             <input type="hidden" name="question_id" value="{{orig_question.id}}">
             <input type="hidden" name="contestant_id" value="{{contestant_id}}">
 
-            {{#if response.isCorrect}}
             <input type="submit" class="btn btn-primary disabled" disabled></input>
-            {{else}}  
-            <input type="submit" class="btn btn-primary"></input>
-            {{/if}}
           </form>
         </div>
       </div>
