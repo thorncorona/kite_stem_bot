@@ -12,6 +12,7 @@
   </div>
   <div id="devices">
     <h2>All Devices</h2>
+    <a href="/submit_device" class="btn btn-primary">Add a device</a>
     {{#each devices}}
     <h3>Device {{@index}}</h3>
     <ul>
@@ -24,7 +25,7 @@
       aria-controls="collapseExample">
       Questions
     </button>
-    <a href="/contestant/{{contestant_id}}/answer_questions" class="btn btn-primary">Answer Questions</a>
+    <a href="/contestant/{{contestant_id}}/answer_questions" class="btn btn-primary">Run & Answer Questions</a>
     
     <div style="margin: 1em;">
       <div class="collapse" id="devices{{@index}}">

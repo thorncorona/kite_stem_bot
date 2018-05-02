@@ -187,27 +187,49 @@ app.get('/contestant/:id/answer_questions', async (req, res) => {
     res.send("contestant not found");
   }
 
+  let categories = await request.get('http://35.230.22.110/api/categories?contestantId=' + contestant.contestant_id)
+
   let category = null;
   let question = null;
   for (let i = 0; i < contestant.questions.length; i++) {
     category = contestant.questions[i];
-    if (category.hasNewQuestions) {
-      question = await request.get('http://35.230.22.110/api/questions?contestantId=' +
-        contestant.contestant_id +
-        '&categoryId=' +
-        encodeURIComponent(category.name) +
-        '&limit=1');
-      question = JSON.parse(question);
-      if(question.length > 0) {
-        question = question[0];
+    question = await request.get('http://35.230.22.110/api/questions?contestantId=' +
+      contestant.contestant_id +
+      '&categoryId=' +
+      encodeURIComponent(category.name) +
+      '&limit=1');
+    question = JSON.parse(question);
+    if(question.length > 0) {
+      question = question[0];
+      
+      let dbSearch = db.get('questions').find({id: question.id}).value();
+      if(dbSearch != undefined && dbSearch != null && dbSearch.correct == true) {
+        let form = {
+          "contestantId": contestant.contestant_id,
+          "answer": dbSearch.answer,
+          "category": dbSearch.category_name,
+          "currentLocationLatitude": (47.6761822 + Math.random() * 0.000001),
+          "currentLocationLongitude": (-122.2029642 + Math.random() * 0.000001),
+          "locationName": "Peter Kirk Park"
+        } 
+      
+        let response = await request.post('http://35.230.22.110/api/questions/' + req.body.question_id + '/submissions', {form: form})
+        response = JSON.parse(response);
+      
+        console.log(response);
+      
+        db.update('points', n => n + int(response.score));
+        await sleep(100 + int(Math.random() * 432));
+        i--;
+        console.log('loop');
+      } else {
+        question['category_name'] = category.name;
+        db.get('questions').push(question).write();
         break;
-      } 
-    }
+      }
+    } 
   }
 
-  if(db.get('questions').find({id: question.id}).value() == undefined) {
-    db.get('questions').push(question).write();
-  }
 
   res.render('answer_questions', {
     title: 'Answer Questions',
@@ -217,7 +239,6 @@ app.get('/contestant/:id/answer_questions', async (req, res) => {
     question: question,
     question_string: JSON.stringify(question),
   });
-
 });
 
 app.post('/contestant/:id/submit_question', async (req, res) => {
@@ -281,7 +302,41 @@ app.post('/contestant/:id/revise_answer', async (req, res) => {
   });
 });
 
+app.get('/auto_create_device', async (req, res) => {
+  let b16 = genRandB16();
+  let form = {
+    "schoolId": 53,
+    "grade": "11",
+    "email": "",
+    "name": "",
+    "parentName": "",
+    "parentEmail": "",
+    "enableNotifications": true,
+    "deviceId": b16,
+    "deviceOS": "android"
+  }
+  let response = await request.post('http://35.230.22.110/api/account/register', { form: form })
+  console.log(response)
+  res.redirect('/watch_progress/'+ b16);
+});
 
+function genRandB16() {
+  let key = "0123456789abcdef";
+  let s = "";
+  for(let i = 0; i < 16; i++) {
+    let rng = Math.floor(Math.random() * 16);
+    s += key.substring(rng, rng + 1);
+  }
+  return s;
+}
 app.listen(5000, function () {
   console.log("Launch server on port 5000");
 });
+
+/** HELPERS */
+
+function sleep(ms){
+  return new Promise(resolve=>{
+      setTimeout(resolve,ms)
+  })
+}
