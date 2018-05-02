@@ -1,0 +1,78 @@
+<div class="container">
+  <div class="row">
+    <h1>Review Question</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          Feedback
+        </div>
+        <div class="card-body">
+          <p class="lead">
+            Your answer was {{#if response.isCorrect}} correct! {{else}} incorrect {{/if}}</p>
+          <div>
+            Points earned: {{response.pointsFeedback}}
+            <br /> Remaining questions in category: {{response.numRemainingQuestions}}
+          </div>
+
+          <h4>Explanation</h4>
+          {{#if response.solutionMediaUrl}}
+          <img src="{{response.solutionMediaUrl}}" width="90%">
+          {{/if}}
+          <p>{{response.solutionText}}</p>
+
+          {{#if response.isCorrect}}
+          <div>
+            <a href="/contestant/{{contestant_id}}/answer_questions" class="btn btn-primary">Next question</a>
+          </div>
+          {{else}}
+          <div>
+            <a href="/contestant/{{contestant_id}}/answer_questions" class="btn btn-primary disabled" disabled>Next question</a>
+          </div>
+          <div>Please submit a revised answer.</div>
+          {{/if}}
+        </div>
+      </div>
+      </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">Review Original Question: {{category_name}} (ID: {{category_id}}, Question ID: {{orig_question.id}})</div>
+        <div class="card-body">
+          {{#ifCond orig_question.mediaType "image"}}
+          <img src="{{orig_question.mediaUrl}}" alt="" width="400">
+          {{else}}
+            {{#ifCond orig_question.mediaType null}}
+            No media for this question
+            {{else}}
+              Unsupported media type: "{{orig_question.mediaType}}"
+            {{/ifCond}}
+          {{/ifCond}}
+
+          <p>{{orig_question.text}}</p>
+          <p class="font-weight-light">{{orig_question.helpText}}</p>
+
+          <form action="/contestant/{{contestant_id}}/revise_answer" method="POST">
+            {{#each orig_question.choices as |choice|}}
+            <div class="form-check" style="margin-left: 1em;">
+              <input class="form-check-input" type="radio" name="answer" id="choice{{@index}}" value="{{choice}}" required>
+              <label class="form-check-label" for="choice{{@index}}">
+                {{choice}}
+              </label>
+            </div>
+            {{/each}}
+
+            <input type="hidden" name="question_id" value="{{orig_question.id}}">
+            <input type="hidden" name="contestant_id" value="{{contestant_id}}">
+
+            {{#if response.isCorrect}}
+            <input type="submit" class="btn btn-primary disabled" disabled></input>
+            {{else}}  
+            <input type="submit" class="btn btn-primary"></input>
+            {{/if}}
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>

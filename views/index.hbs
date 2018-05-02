@@ -1,0 +1,49 @@
+<div class="container">
+  <h1>Control Panel</h1>
+  <h2>Total Points Collected: {{points}}</h2>
+
+  <div>
+    <h3>Scoreboard</h3>
+    {{#each scores}}
+    <div>
+      {{name}} - {{score}}
+    </div>
+    {{/each}}
+  </div>
+  <div id="devices">
+    <h2>All Devices</h2>
+    {{#each devices}}
+    <h3>Device {{@index}}</h3>
+    <ul>
+      <li>Name: {{account.name}} ({{account.email}})</li>
+      <li>Device ID: {{device_id}}</li>
+      <li>Contestant ID: {{contestant_id}}</li>
+    </ul>
+
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#devices{{@index}}" aria-expanded="false"
+      aria-controls="collapseExample">
+      Questions
+    </button>
+    <a href="/contestant/{{contestant_id}}/answer_questions" class="btn btn-primary">Answer Questions</a>
+    
+    <div style="margin: 1em;">
+      <div class="collapse" id="devices{{@index}}">
+        <div class="card card-body">
+          {{#each questions}}
+          <div>
+            <span class="{{#if hasNewQuestions}}
+              text-success
+              {{else}}
+              text-danger
+              {{/if}}">
+              {{name}}
+            </span> 
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+
+</div>

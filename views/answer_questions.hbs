@@ -1,0 +1,51 @@
+<div class="container">
+  <h1>Answer Qustions</h1>
+  <p class="lead">We give questions by checking what's unanswered.</p>
+
+  <div>
+    Device ID: {{contestant.device_id}}<br/> 
+    Contestant ID: {{contestant.contestant_id}}
+  </div>
+  <br />
+  <div>
+    <div>
+      <h3>{{category.name}} (ID: {{category.id}}, Question ID: {{question.id}})</h3>
+    </div>
+
+    {{#ifCond question.mediaType "image"}}
+    <div>
+      <img src="{{question.mediaUrl}}" alt="" width="400">
+    </div>
+    {{else}}
+      {{#ifCond question.mediaType null}}
+      No media for this question
+      {{else}}
+        Unsupported media type: "{{question.mediaType}}"
+      {{/ifCond}}
+    {{/ifCond}}
+
+    <br /> <br />
+    <p>{{question.text}}</p>
+    <p class="font-weight-light">{{question.helpText}}</p>
+
+    <form action="/contestant/{{contestant.contestant_id}}/submit_question" method="POST">
+      {{#each question.choices as |choice|}}
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="answer" id="choice{{@index}}" value="{{choice}}" required>
+          <label class="form-check-label" for="choice{{@index}}">
+            {{choice}}
+          </label>
+        </div>
+      {{/each}}
+
+      <input type="hidden" name="question_id" value="{{question.id}}">
+      <input type="hidden" name="question_string" value="{{question_string}}">
+      <input type="hidden" name="category_id" value="{{category.id}}">
+      <input type="hidden" name="category_name" value="{{category.name}}">
+      <input type="hidden" name="contestant_id" value="{{contestant.contestant_id}}">
+
+      <input type="submit" class="btn btn-primary"></input>
+    </form>
+  </div>
+</div>
+

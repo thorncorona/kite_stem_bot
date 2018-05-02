@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Control Panel</h1>
+  <p class="lead">Controls everything</p>
+
+  <form action="/submit_device" method="post">
+    <div class="form-group">
+      <label for="device_id">Device ID</label>
+      <input type="text" class="form-control" id="device_id" name="device_id" placeholder="Enter Device ID">
+      <small id="device_id_help" class="form-text text-muted">Should be a URL with "http://35.230.22.110/api/account/byDeviceId/" + id at the end</small>
+    </div>
+    <input type="submit" class="btn btn-primary"></input>
+  </form>
+</div>
