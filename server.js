@@ -222,8 +222,8 @@ app.get('/contestant/:id/answer_questions', async (req, res) => {
       
         console.log(response);
       
-        db.update('points', n => n + int(response.score)).write();
-        await sleep(100 + int(Math.random() * 432));
+        db.update('points', n => n + parseInt(response.score)).write();
+        await sleep(100 + Math.floor(Math.random() * 432));
         i--;
         console.log('loop');
       } else {
@@ -261,7 +261,7 @@ app.post('/contestant/:id/submit_question', async (req, res) => {
 
   console.log(response);
 
-  db.update('points', n => n + int(response.score)).write();
+  db.update('points', n => n + parseInt(response.score)).write();
   if(response.isCorrect) {
     db.get('questions').find({id: orig_question.id}).assign({
       solution: req.body.answer,
