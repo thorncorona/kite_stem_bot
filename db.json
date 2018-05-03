@@ -852,6 +852,29 @@
         "enableNotifications": true,
         "score": 0
       }
+    },
+    {
+      "device_id": "d7dfb09bc2bb2d05",
+      "contestant_id": "c9311e8a-1f64-490c-b5e0-05a8fcebae71",
+      "account": {
+        "contestantId": "c9311e8a-1f64-490c-b5e0-05a8fcebae71",
+        "deviceId": "d7dfb09bc2bb2d05",
+        "deviceOS": "android",
+        "deviceModel": null,
+        "schoolId": 53,
+        "schoolName": "Tesla STEM High School",
+        "schoolLevel": "HIGH",
+        "questionsAchievement": 0,
+        "parksAchievement": 0,
+        "categoriesAchievement": 0,
+        "grade": "11",
+        "name": null,
+        "email": null,
+        "parentName": null,
+        "parentEmail": null,
+        "enableNotifications": true,
+        "score": 0
+      }
     }
   ],
   "questions": [
@@ -873,7 +896,8 @@
       "solutionMediaUrl": "https://drive.google.com/uc?id=1HJg3eJRhFthZ2BYlJNxlEregJ3x3Zv7C",
       "authorName": "Erin Bell",
       "pointValue": 5,
-      "category_name": "Algebra I"
+      "category_name": "Algebra I",
+      "correct": true
     },
     {
       "id": "112",
@@ -892,8 +916,9 @@
       "pointValue": 5,
       "category_name": "Algebra I",
       "solution": "S=1.5t",
-      "solutionText": "",
-      "solutionMediaUrl": ""
+      "solutionText": "The y-intercept would be zero because no snow has fallen.  The slope would be equal to 1.5.",
+      "solutionMediaUrl": "",
+      "correct": true
     },
     {
       "id": "113",
@@ -913,7 +938,8 @@
       "category_name": "Algebra I",
       "solution": "4.5 hours",
       "solutionText": "Average speed is 62 miles per hour.  279/62 is equal to 4.5.",
-      "solutionMediaUrl": ""
+      "solutionMediaUrl": "",
+      "correct": true
     },
     {
       "id": "114",
@@ -1255,7 +1281,11 @@
       ],
       "authorName": "Erin Bell",
       "pointValue": 5,
-      "category_name": "Algebra II"
+      "category_name": "Algebra II",
+      "solution": "40 feet",
+      "solutionText": "The vertex of the parabola is (1.5, 40).  This tells you the baseball reaches a maximum height of 40 feet 1.5 seconds after contact with the bat.",
+      "solutionMediaUrl": "https://drive.google.com/uc?id=1YN3H_JJQpxqYjMnKsLvD-mStfU3JmlKx",
+      "correct": true
     },
     {
       "id": "769",
@@ -1316,6 +1346,1003 @@
       "solutionText": "Spaghettification is what happens to something that gets pulled into a black hole. The tidal forces from the difference in gravity on one end of an object compared to the gravity on the opposite end of the object are enough to stretch out the object falling into the black hole like a piece of spaghetti.",
       "solutionMediaUrl": "",
       "correct": true
+    },
+    {
+      "id": "736",
+      "mediaUrl": "https://drive.google.com/uc?id=1qdJpbHwBCLEoABX5u6B0T1432m403Rwu",
+      "mediaType": "image",
+      "text": "After the Sun has used up all its hydrogen, which phase of its life will it enter?",
+      "helpText": null,
+      "choices": [
+        "Blue giant",
+        "Red dwarf",
+        "White dward",
+        "Red giant"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "AstroAdventurers!",
+      "solution": "Red giant",
+      "solutionText": "When the Sun can no longer fuse hydrogen, it must begin fusing helium. This process gives off more energy than hydrogen fusion, causing the Sun to expand and its outer layers to cool (becoming redder).",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "127",
+      "mediaUrl": "https://drive.google.com/uc?id=14Y9RXQMkF05iSY-oDjI0KW4gBMDIgC1m",
+      "mediaType": "image",
+      "text": "A baseball player hit a ball with an upward velocity of 46 ft/sec.  It's height h in feet after t seconds is given by the function \\\\[h(t)=-16t^2+48t+4 \\\\]\n\nWhat is the maximum height the ball reaches?",
+      "helpText": null,
+      "choices": [
+        "32 ft",
+        "68 ft",
+        "400 ft",
+        "4 ft",
+        "40 feet"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Algebra II"
+    },
+    {
+      "id": "127",
+      "mediaUrl": "https://drive.google.com/uc?id=14Y9RXQMkF05iSY-oDjI0KW4gBMDIgC1m",
+      "mediaType": "image",
+      "text": "A baseball player hit a ball with an upward velocity of 46 ft/sec.  It's height h in feet after t seconds is given by the function \\\\[h(t)=-16t^2+48t+4 \\\\]\n\nWhat is the maximum height the ball reaches?",
+      "helpText": null,
+      "choices": [
+        "40 feet",
+        "4 ft",
+        "68 ft",
+        "400 ft",
+        "32 ft"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Algebra II"
+    },
+    {
+      "id": "128",
+      "mediaUrl": "https://drive.google.com/uc?id=14VxBOb5bNwC9i3USSUL221DtHjriWu9w",
+      "mediaType": "image",
+      "text": "Which of the following graphs is NOT a function?",
+      "helpText": null,
+      "choices": [
+        "B",
+        "C",
+        "A",
+        "D",
+        "All of the graphs are functions."
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Algebra II",
+      "solution": "C",
+      "solutionText": "C does not pass the vertical line test.  For any given function, every input can only have one output.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "130",
+      "mediaUrl": "https://drive.google.com/uc?id=1fgHS37YTGIpT5flURpdKi35vOhG7unZ3",
+      "mediaType": "image",
+      "text": "Write in standard form.  Classify by degree and terms.",
+      "helpText": null,
+      "choices": [
+        "quintic trinomial",
+        "quintic biniomial",
+        "quartic binomial",
+        "cubic binomial",
+        "quartic trinomial"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Algebra II",
+      "solution": "quintic biniomial",
+      "solutionText": "Fifth degree so quintic.  Two terms so binomial.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "131",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "How many ways can the letters of the word \"MATH\" be arranged?",
+      "helpText": null,
+      "choices": [
+        "6",
+        "20",
+        "12",
+        "48",
+        "24"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Algebra II",
+      "solution": "24",
+      "solutionText": "4!=4(3)(2)(1)",
+      "solutionMediaUrl": "",
+      "correct": false
+    },
+    {
+      "id": "132",
+      "mediaUrl": "https://drive.google.com/uc?id=1oaQUEoUVcgnhqRwYaHXLMwHLTo4gSPqS",
+      "mediaType": "image",
+      "text": "Factor completely.",
+      "helpText": null,
+      "choices": [
+        "2x(x+5)(x+5)",
+        "2x(x-5)(x-5)",
+        "2x(x-5)(x+5)",
+        "3x(x+5)",
+        "None of the above"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Algebra II",
+      "solution": "2x(x-5)(x+5)",
+      "solutionText": "First factor out the GCF (2x).  Difference of 2 squares is left.",
+      "solutionMediaUrl": "",
+      "correct": false
+    },
+    {
+      "id": "133",
+      "mediaUrl": "https://drive.google.com/uc?id=1hZQHD1SazLlPPKE_dWUIeaGvX9VP-fHK",
+      "mediaType": "image",
+      "text": "It takes 8 monkeys 8 minutes to eat 8 bananas.  How long does it take 4 monkeys to eat 4 bananas?",
+      "helpText": null,
+      "choices": [
+        "4 minutes",
+        "1 minute",
+        "8 minutes",
+        "12 minutes",
+        "16 minutes"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Brain Teasers",
+      "solution": "8 minutes",
+      "solutionText": "It takes a monkey 8 minutes to eat a banana.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "134",
+      "mediaUrl": "https://drive.google.com/uc?id=1DtKlR4h0Fp4gvD5rcXpKRItdaKedOtb-",
+      "mediaType": "image",
+      "text": "Scarlet has a drawer full of red and blue socks.  30 red socks and 30 blue socks.  Without looking, what is the minimum number of socks she needs to pick to get a matching pair?",
+      "helpText": null,
+      "choices": [
+        "3 socks",
+        "31 socks",
+        "2 socks",
+        "1 sock",
+        "4 socks"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Brain Teasers",
+      "solution": "3 socks",
+      "solutionText": "First sock could be red, second blue, third would be red or blue.  A match!!",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "135",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "Three times what number equal to two times the same number?",
+      "helpText": null,
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "1/2",
+        "2/3"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Brain Teasers",
+      "solution": "0",
+      "solutionText": "3(0)=0\n2(0)=0",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "229",
+      "mediaUrl": "https://drive.google.com/uc?id=1PDvtwDw02MXhKV2YaFlGTadslpmDMRq2",
+      "mediaType": "image",
+      "text": "A flagpole of 20 feet casts a shadow of 5 feet. If the flagpole were\nonly 12 feet high, how long would its shadow be?",
+      "helpText": null,
+      "choices": [
+        "12 feet",
+        "6 feet",
+        "3 feet",
+        "7 feet",
+        "4 feet"
+      ],
+      "authorName": "erin bell",
+      "pointValue": 5,
+      "category_name": "Brain Teasers",
+      "solution": "3 feet",
+      "solutionText": "Use ratios.  20/4=5 so 12/4=3.  The shadow would be 3 feet.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "229",
+      "mediaUrl": "https://drive.google.com/uc?id=1PDvtwDw02MXhKV2YaFlGTadslpmDMRq2",
+      "mediaType": "image",
+      "text": "A flagpole of 20 feet casts a shadow of 5 feet. If the flagpole were\nonly 12 feet high, how long would its shadow be?",
+      "helpText": null,
+      "choices": [
+        "6 feet",
+        "3 feet",
+        "12 feet",
+        "4 feet",
+        "7 feet"
+      ],
+      "authorName": "erin bell",
+      "pointValue": 5,
+      "category_name": "Brain Teasers"
+    },
+    {
+      "id": "229",
+      "mediaUrl": "https://drive.google.com/uc?id=1PDvtwDw02MXhKV2YaFlGTadslpmDMRq2",
+      "mediaType": "image",
+      "text": "A flagpole of 20 feet casts a shadow of 5 feet. If the flagpole were\nonly 12 feet high, how long would its shadow be?",
+      "helpText": null,
+      "choices": [
+        "7 feet",
+        "3 feet",
+        "4 feet",
+        "12 feet",
+        "6 feet"
+      ],
+      "authorName": "erin bell",
+      "pointValue": 5,
+      "category_name": "Brain Teasers"
+    },
+    {
+      "id": "230",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "11 hours ago it was the morning. 3 hours from now will be 1 am\ntomorrow. What time was it in the morning I first mentioned?",
+      "helpText": null,
+      "choices": [
+        "Noon",
+        "9 am",
+        "10 am",
+        "Cannot be determined",
+        "11 am"
+      ],
+      "authorName": "erin bell",
+      "pointValue": 5,
+      "category_name": "Brain Teasers",
+      "solution": "11 am",
+      "solutionText": "11:00 am. If 3 hours from now is 1:00 am tomorrow, it must be 10:00 pm. And 11 hours before 10 pm is 11 am.",
+      "solutionMediaUrl": "",
+      "correct": false
+    },
+    {
+      "id": "136",
+      "mediaUrl": "https://drive.google.com/uc?id=1y24BBOAkHtuRzHplrWrYqomxYJahWHYZ",
+      "mediaType": "image",
+      "text": "Juanita Beach Bathhouse from the past had a great trapezoidal roof.  Find an expression for the midsegment of the trapezoid if the base lengths are represented by B1 and B2.",
+      "helpText": null,
+      "choices": [
+        "B1-B2",
+        "2B1-2B2",
+        "Cannot be determined",
+        "B1+B2",
+        "(B1+B2)/2"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Geometry",
+      "solution": "(B1+B2)/2",
+      "solutionText": "The midsegment of a trapezoid is equal to average of its bases.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "136",
+      "mediaUrl": "https://drive.google.com/uc?id=1y24BBOAkHtuRzHplrWrYqomxYJahWHYZ",
+      "mediaType": "image",
+      "text": "Juanita Beach Bathhouse from the past had a great trapezoidal roof.  Find an expression for the midsegment of the trapezoid if the base lengths are represented by B1 and B2.",
+      "helpText": null,
+      "choices": [
+        "Cannot be determined",
+        "B1+B2",
+        "2B1-2B2",
+        "B1-B2",
+        "(B1+B2)/2"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Geometry"
+    },
+    {
+      "id": "736",
+      "mediaUrl": "https://drive.google.com/uc?id=1qdJpbHwBCLEoABX5u6B0T1432m403Rwu",
+      "mediaType": "image",
+      "text": "After the Sun has used up all its hydrogen, which phase of its life will it enter?",
+      "helpText": null,
+      "choices": [
+        "Blue giant",
+        "Red giant",
+        "Red dwarf",
+        "White dward"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "AstroAdventurers!"
+    },
+    {
+      "id": "137",
+      "mediaUrl": "https://drive.google.com/uc?id=15ywuVryi-k6-NuPTm-82yX7tHS2zncBe",
+      "mediaType": "image",
+      "text": "O.O. Denny Park has been the host of the Park to Park Swim benefiting Seattle Children's for many years.  Which geometric property of congruence tells us that the distance from O.O. Denny Park to Matthews Beach is the same distance as Matthews Beach to O.O. Denny Park?",
+      "helpText": null,
+      "choices": [
+        "Midpoint of a Segment",
+        "Reflexive Property",
+        "The distances are not equal",
+        "Segment Addition",
+        "Transitive Property"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Geometry",
+      "solution": "Reflexive Property",
+      "solutionText": "The reflexive property is illustrated since it is equal to itself.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "137",
+      "mediaUrl": "https://drive.google.com/uc?id=15ywuVryi-k6-NuPTm-82yX7tHS2zncBe",
+      "mediaType": "image",
+      "text": "O.O. Denny Park has been the host of the Park to Park Swim benefiting Seattle Children's for many years.  Which geometric property of congruence tells us that the distance from O.O. Denny Park to Matthews Beach is the same distance as Matthews Beach to O.O. Denny Park?",
+      "helpText": null,
+      "choices": [
+        "Midpoint of a Segment",
+        "Segment Addition",
+        "The distances are not equal",
+        "Reflexive Property",
+        "Transitive Property"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Geometry"
+    },
+    {
+      "id": "138",
+      "mediaUrl": "https://drive.google.com/uc?id=1yrsYFZdjDkhllXFytYMh3ueeLvGPfX1P",
+      "mediaType": "image",
+      "text": "An equilateral triangle has a perimeter of 33 units.  Solve for x.",
+      "helpText": null,
+      "choices": [
+        "x=33",
+        "x=11",
+        "x=1",
+        "x=12",
+        "x=4"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Geometry",
+      "solution": "x=4",
+      "solutionText": "3x-1=11 so x=4",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "139",
+      "mediaUrl": "https://drive.google.com/uc?id=1MB7i8-Qc0WnWOlB6uwRADpFfXqb-t0TH",
+      "mediaType": "image",
+      "text": "Find the midsegment of the following trapezoid.",
+      "helpText": null,
+      "choices": [
+        "4.5 feet",
+        "6 feet",
+        "9 feet",
+        "3 feet",
+        "18 feet"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Geometry",
+      "solution": "4.5 feet",
+      "solutionText": "The midsegment of a trapezoid if found by taking the average of the two bases.  The bases have lengths  of 6 feet and 3 feet so the midsegment length is 4.5 feet.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "139",
+      "mediaUrl": "https://drive.google.com/uc?id=1MB7i8-Qc0WnWOlB6uwRADpFfXqb-t0TH",
+      "mediaType": "image",
+      "text": "Find the midsegment of the following trapezoid.",
+      "helpText": null,
+      "choices": [
+        "9 feet",
+        "6 feet",
+        "18 feet",
+        "4.5 feet",
+        "3 feet"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Geometry"
+    },
+    {
+      "id": "763",
+      "mediaUrl": "https://drive.google.com/uc?id=16ovRLTforMMiTDLpJzf9zfGaNq6xPiH7",
+      "mediaType": "image",
+      "text": "A star can keep making energy until its only fuel source is:",
+      "helpText": null,
+      "choices": [
+        "Copper (Cu)",
+        "Gold (Au)",
+        "Iron (Fe)",
+        "Carbon (C)"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "AstroAdventurers!",
+      "solution": "Iron (Fe)",
+      "solutionText": "Big enough stars can fuse elements up to iron on the Periodic Table. Iron fusion is unique in that it absorbs more energy than it gives off. This means that if a star tries to fuse iron, it will actually take energy away from the star, preventing fusion from continuing.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "764",
+      "mediaUrl": "https://drive.google.com/uc?id=1jXVoL23ael2pVU2K6ToBx4thbzLgWYR-",
+      "mediaType": "image",
+      "text": "What is the Event Horizon of a black hole?",
+      "helpText": null,
+      "choices": [
+        "The force that pulls objects into a black hole",
+        "The part where trapped light gathers",
+        "The part that used to be a star",
+        "The boundary beyond which light cannot escape"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "AstroAdventurers!",
+      "solution": "The boundary beyond which light cannot escape",
+      "solutionText": "A characteristic of black holes is gravity that is so strong, light itself cannot escape. The distance from the center of a black hole that marks the point beyond which light cannot escape gravity's pull is called the event horizon because an outside observer cannot see any events that happen beyond that point.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "765",
+      "mediaUrl": "https://drive.google.com/uc?id=1jXVoL23ael2pVU2K6ToBx4thbzLgWYR-",
+      "mediaType": "image",
+      "text": "Melvin wants to find out what it's like inside a black hole. He has an unlimited amount of money, and advanced technology available. What should he try?",
+      "helpText": null,
+      "choices": [
+        "Tie a camera onto a super strong cable and drop it in from a spaceship and pull it out quickly",
+        "Ask his mom",
+        "Forget it and go back to watching Star Wars.",
+        "Drop a wireless camera into the black hole from an orbiting spaceship"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "AstroAdventurers!",
+      "solution": "Forget it and go back to watching Star Wars.",
+      "solutionText": "There is no way to get any information out of a black hole. Light is the fastest thing in the universe and it is unable to escape the event horizon of a black hole. Any way we might try to transmit information out of a black hole uses light (radio waves are a form of light), so there is no way of transmitting information out of the black hole.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "766",
+      "mediaUrl": "https://drive.google.com/uc?id=1Bqu_ovTc816e7ZaBZqN043ztJOHrA-55",
+      "mediaType": "image",
+      "text": "In a star, there is an ongoing battle between:",
+      "helpText": null,
+      "choices": [
+        "Gravity and energy",
+        "Magnetism and energy",
+        "Gravity and neutrons",
+        "Neutrons and magnetism"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "AstroAdventurers!",
+      "solution": "Gravity and energy",
+      "solutionText": "Gravity is constantly trying to collapse the star in on its core, while the energy from fusion is pushing outward from the core. If the energy wasn't balanced by the gravity, the star would explode and if the gravity wasn't balanced by the energy, the star would collapse in on itself. When gravity and energy are balanced, the star's size is stable.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "140",
+      "mediaUrl": "https://drive.google.com/uc?id=1JLDMq9TY76oR6ti7Axi026b6BnpJaWKs",
+      "mediaType": "image",
+      "text": "Solve for x.",
+      "helpText": null,
+      "choices": [
+        "720 degrees",
+        "98 degrees",
+        "540 degrees",
+        "102 degrees",
+        "None of the above"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Geometry",
+      "solution": "98 degrees",
+      "solutionText": "The sum of the interior angles of a polygon is 180(n-2) where n is the number of sides.  This is a pentagon (5 sides) so the sum of the interior angles is 540 degrees.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "767",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "An average star spends most of its life in this phase:",
+      "helpText": null,
+      "choices": [
+        "Main sequence",
+        "Red giant",
+        "Neutron star",
+        "White dwarf"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "AstroAdventurers!",
+      "solution": "Main sequence",
+      "solutionText": "The Main Sequence is named because it is the main portion of a star's life. While there are other stages, the majority of the time a star exists, it's a main sequence star. Our Sun is currently on the main sequence.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "768",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "Which of these is a valid stellar lifetime sequence?",
+      "helpText": null,
+      "choices": [
+        "Nebula, protostar, main sequence, red giant, supernova, neutron star",
+        "Nebula, protostar, main sequence, red giant, black hole",
+        "Nebula, protostar, main sequence, white dwarf, neutron star",
+        "Protostar, main sequence, red giant, supernova, black hole"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "AstroAdventurers!",
+      "solution": "Nebula, protostar, main sequence, red giant, black hole",
+      "solutionText": "All stars begin their lives as nebulas (huge clouds of gas and dust in space). Gravity pulls the gas & dust together forming a ball called a protostar. Once the pressure from the growing protostar's mass is high enough it will begin fusing hydrogen into helium and become a main sequence star, giving off visible light, like our Sun. Once the hydrogen fuel is used it, the star will expand to a red giant and start fusing helium. If the star is massive enough it will fuse until it can't fuse any more elements, explode into a supernova, leaving behind a black hole.",
+      "solutionMediaUrl": "",
+      "correct": false
+    },
+    {
+      "id": "124",
+      "mediaUrl": "https://drive.google.com/uc?id=1nW14sipycMf4awxVch7JpSr7yq0JvM9f",
+      "mediaType": "image",
+      "text": "LINE OF BEST FIT:  What type of correlation can be determined from the graph?",
+      "helpText": null,
+      "choices": [
+        "Strong Negative",
+        "Weak Positive",
+        "No correlation",
+        "Strong Positive",
+        "Weak Negative"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Algebra I",
+      "solution": "Strong Negative",
+      "solutionText": "The graph has a negative slope so the correlation is negative.  Clear correlation so this graph would be considered as strong negative.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "140",
+      "mediaUrl": "https://drive.google.com/uc?id=1JLDMq9TY76oR6ti7Axi026b6BnpJaWKs",
+      "mediaType": "image",
+      "text": "Solve for x.",
+      "helpText": null,
+      "choices": [
+        "98 degrees",
+        "540 degrees",
+        "720 degrees",
+        "102 degrees",
+        "None of the above"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Geometry"
+    },
+    {
+      "id": "124",
+      "mediaUrl": "https://drive.google.com/uc?id=1nW14sipycMf4awxVch7JpSr7yq0JvM9f",
+      "mediaType": "image",
+      "text": "LINE OF BEST FIT:  What type of correlation can be determined from the graph?",
+      "helpText": null,
+      "choices": [
+        "No correlation",
+        "Strong Negative",
+        "Weak Positive",
+        "Strong Positive",
+        "Weak Negative"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Algebra I"
+    },
+    {
+      "id": "111",
+      "mediaUrl": "https://drive.google.com/uc?id=1c6H07G4t-HrvQD86T1fOxbOug4kqiC8U",
+      "mediaType": "image",
+      "text": "What is the domain of the function?",
+      "helpText": null,
+      "choices": [
+        "-10 < x <10",
+        "\\\\[ -\\infty<x<\\infty \\\\]",
+        "\\\\[ -\\infty<y<\\infty \\\\]",
+        "-10 < y <10",
+        "None of the above"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Algebra I"
+    },
+    {
+      "id": "141",
+      "mediaUrl": "https://drive.google.com/uc?id=13I3kdE3lRzU24dHdOl_JZcb6ZBuKs6dW",
+      "mediaType": "image",
+      "text": "Chords QS and RT intersect at point P, the center of the circle.  Angle QST has a measure of 30 degrees.  Find the measure of the minor arc RS",
+      "helpText": null,
+      "choices": [
+        "45 degrees",
+        "90 degrees",
+        "300 degrees",
+        "60 degrees",
+        "30 degrees"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Geometry",
+      "solution": "60 degrees",
+      "solutionText": "The measure of the minor arc is the measure of its central angle.  In this case the central angle has a measure of 30 degrees.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "112",
+      "mediaUrl": "https://drive.google.com/uc?id=1tsL9piABIVMBgFuwqnEaFwakf70jANdO",
+      "mediaType": "image",
+      "text": "SNOW DAY???  No snow has fallen yet, but Kirkland is predicted to accumulate snow at a rate of 1.5 inches per hour.  Write an equation where S represents total snowfall in inches over t hours.",
+      "helpText": null,
+      "choices": [
+        "S=t/1.5",
+        "S=24(1.5t)",
+        "S=1.5t+24",
+        "S=1.5t",
+        "t=1.5S"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Algebra I"
+    },
+    {
+      "id": "113",
+      "mediaUrl": "https://drive.google.com/uc?id=103aeEPEWGMKBCGX5getJWvCIuuJWaEAP",
+      "mediaType": "image",
+      "text": "The distance from Kirkland to Spokane is approximately 279 miles.  It takes you 2 hours to drive the first 124 miles.  At this rate, how long will it take you to get to Spokane?",
+      "helpText": null,
+      "choices": [
+        "9 hours",
+        "4.5 hours",
+        "5 hours",
+        "4 hours",
+        "279 hours"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Algebra I"
+    },
+    {
+      "id": "142",
+      "mediaUrl": "https://drive.google.com/uc?id=10nFhI2CD-5_HlB02SY2sL992bNOy7xfg",
+      "mediaType": "image",
+      "text": "Find the measure of angle 2.",
+      "helpText": null,
+      "choices": [
+        "72 degrees",
+        "40 degrees",
+        "Cannot be determined",
+        "30 degrees",
+        "108 degrees"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Geometry",
+      "solution": "72 degrees",
+      "solutionText": "Angle 2 is an exterior angle of the triangle.  Each exterior angle is the sum of the two remote interior angles.  The two remote interior angles are 32 and 40 degrees.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "143",
+      "mediaUrl": "https://drive.google.com/uc?id=1p_m4YcPK0t_K07MHCu8ch_JH-LuUYqWm",
+      "mediaType": "image",
+      "text": "Triangles IGH and FDE are congruent.  Why?",
+      "helpText": null,
+      "choices": [
+        "Angle Angle Side Congruence",
+        "Side Angle Side Congruence",
+        "Side Side Side Conguence",
+        "Angle Side Angle Congruence",
+        "Side Side Angle Congruence"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Geometry",
+      "solution": "Side Angle Side Congruence",
+      "solutionText": "SAS Conguence:  If two sides and the included angle of one triangle are congruent to two sides and the included angle of another triangle, then the two triangles are congruent.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "144",
+      "mediaUrl": "https://drive.google.com/uc?id=1u_bqfG3YHiQNgtvpLgKYhDbfjzcF5Ljw",
+      "mediaType": "image",
+      "text": "Find the volume of a sphere with a radius of 9 cm.",
+      "helpText": null,
+      "choices": [
+        "81 cm squared",
+        "approx 2289 cm cubed",
+        "approx 763 units cubed",
+        "approx 3052 cm cubed",
+        "81 cm cubed"
+      ],
+      "authorName": "Erin Bell",
+      "pointValue": 5,
+      "category_name": "Geometry"
+    },
+    {
+      "id": "863",
+      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
+      "mediaType": "image",
+      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
+      "helpText": null,
+      "choices": [
+        "Continental Tropical",
+        "Equitorial",
+        "Maritime Polar",
+        "Continental Polar"
+      ],
+      "authorName": "Timothy McFaul",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Maritime Polar",
+      "solutionText": "Maritime polar air masses are typically cool and unstable, very similar to the environment of Alaska.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "863",
+      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
+      "mediaType": "image",
+      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
+      "helpText": null,
+      "choices": [
+        "Equitorial",
+        "Continental Polar",
+        "Maritime Polar",
+        "Continental Tropical"
+      ],
+      "authorName": "Timothy McFaul",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun"
+    },
+    {
+      "id": "863",
+      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
+      "mediaType": "image",
+      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
+      "helpText": null,
+      "choices": [
+        "Maritime Polar",
+        "Continental Tropical",
+        "Continental Polar",
+        "Equitorial"
+      ],
+      "authorName": "Timothy McFaul",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun"
+    },
+    {
+      "id": "863",
+      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
+      "mediaType": "image",
+      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
+      "helpText": null,
+      "choices": [
+        "Continental Tropical",
+        "Continental Polar",
+        "Maritime Polar",
+        "Equitorial"
+      ],
+      "authorName": "Timothy McFaul",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun"
+    },
+    {
+      "id": "863",
+      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
+      "mediaType": "image",
+      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
+      "helpText": null,
+      "choices": [
+        "Continental Tropical",
+        "Continental Polar",
+        "Equitorial",
+        "Maritime Polar"
+      ],
+      "authorName": "Timothy McFaul",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun"
+    },
+    {
+      "id": "863",
+      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
+      "mediaType": "image",
+      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
+      "helpText": null,
+      "choices": [
+        "Continental Polar",
+        "Continental Tropical",
+        "Maritime Polar",
+        "Equitorial"
+      ],
+      "authorName": "Timothy McFaul",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun"
+    },
+    {
+      "id": "863",
+      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
+      "mediaType": "image",
+      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
+      "helpText": null,
+      "choices": [
+        "Continental Polar",
+        "Maritime Polar",
+        "Continental Tropical",
+        "Equitorial"
+      ],
+      "authorName": "Timothy McFaul",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun"
+    },
+    {
+      "id": "863",
+      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
+      "mediaType": "image",
+      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
+      "helpText": null,
+      "choices": [
+        "Equitorial",
+        "Maritime Polar",
+        "Continental Polar",
+        "Continental Tropical"
+      ],
+      "authorName": "Timothy McFaul",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun"
+    },
+    {
+      "id": "860",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "The most abundant gas in the atmosphere 4 billion years ago was ",
+      "helpText": null,
+      "choices": [
+        "Sulfur dioxide",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Water vapor",
+        "Oxygen"
+      ],
+      "authorName": "Timothy McFaul",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Carbon dioxide",
+      "solutionText": "An atmosphere formed around the earth by the volcanoes spewing gases, including hydrogen sulfide and methane, but largely carbon dioxide.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "861",
+      "mediaUrl": "https://drive.google.com/uc?id=16XG2FlIgwW-GcM_AHpA8no0-P-K-5aQJ",
+      "mediaType": "image",
+      "text": "The correct order of levels of the atmosphere from the highest altitude from the highest altitude to lowest altitude is",
+      "helpText": null,
+      "choices": [
+        "Troposphere, Mesosphere, Stratosphere, Thermosphere",
+        "Thermosphere, Mesosphere, Stratosphere, Troposphere",
+        "Thermosphere, Stratosphere, Troposphere, Mesosphere",
+        "Troposphere, Stratosphere, Mesosphere, Thermosphere",
+        "Thermosphere, Stratosphere, Mesosphere, Troposphere"
+      ],
+      "authorName": "Timothy McFaul",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Thermosphere, Mesosphere, Stratosphere, Troposphere",
+      "solutionText": "Thermosphere: highest level of very thin air, Mesosphere: second highest level, Stratosphere: second lowest level, about the altitude planes fly in, Troposphere: the lowest level, the one that we live in.  ",
+      "solutionMediaUrl": "",
+      "correct": false
+    },
+    {
+      "id": "707",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "The deepest layer of the Earth is the _________.",
+      "helpText": null,
+      "choices": [
+        "Inner Core",
+        "Outer Core",
+        "Crust",
+        "Mantle"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Inner Core",
+      "solutionText": "The core of the Earth has 2 parts, each a different phase of matter. The outer core is liquid, while the inner core is solid. The only layer humans have ever actually been on is the crust",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "708",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "The thickest layer of the Earth is the ______.",
+      "helpText": null,
+      "choices": [
+        "Crust",
+        "Outer Core",
+        "Mantle",
+        "Inner Core"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun"
+    },
+    {
+      "id": "708",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "The thickest layer of the Earth is the ______.",
+      "helpText": null,
+      "choices": [
+        "Outer Core",
+        "Mantle",
+        "Crust",
+        "Inner Core"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun"
+    },
+    {
+      "id": "863",
+      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
+      "mediaType": "image",
+      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
+      "helpText": null,
+      "choices": [
+        "Equitorial",
+        "Continental Polar",
+        "Continental Tropical",
+        "Maritime Polar"
+      ],
+      "authorName": "Timothy McFaul",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun"
     }
   ],
   "categories": [
@@ -1900,5 +2927,5 @@
       "icon": "AstroAdventures!"
     }
   ],
-  "points": 0
+  "points": 489
 }
