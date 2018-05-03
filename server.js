@@ -190,6 +190,9 @@ app.get('/contestant/:id/answer_questions', async (req, res) => {
   let categories = await request.get('http://35.230.22.110/api/categories?contestantId=' + contestant.contestant_id)
 
   categories = JSON.parse(categories);
+  categories.sort(function(a, b) {
+    return compareStrings(a.name, b.name);
+  });
 
   let category = null;
   let question = null;
@@ -202,7 +205,6 @@ app.get('/contestant/:id/answer_questions', async (req, res) => {
       encodeURIComponent(category.name) +
       '&limit=1');
     question = JSON.parse(question);
-    console.log("question error???")
     if(question.length > 0) {
       question = question[0];
       
@@ -212,8 +214,8 @@ app.get('/contestant/:id/answer_questions', async (req, res) => {
           "contestantId": contestant.contestant_id,
           "answer": dbSearch.answer,
           "category": dbSearch.category_name,
-          "currentLocationLatitude": (47.6761822 + Math.random() * 0.000001),
-          "currentLocationLongitude": (-122.2029642 + Math.random() * 0.000001),
+          "currentLocationLatitude": (47.6761822 + Math.random() * 0.00001),
+          "currentLocationLongitude": (-122.2029642 + Math.random() * 0.00001),
           "locationName": "Peter Kirk Park"
         } 
       
@@ -326,4 +328,12 @@ function sleep(ms){
   return new Promise(resolve=>{
       setTimeout(resolve,ms)
   })
+}
+
+function compareStrings(a, b) {
+  // Assuming you want case-insensitive comparison
+  a = a.toLowerCase();
+  b = b.toLowerCase();
+
+  return (a < b) ? -1 : (a > b) ? 1 : 0;
 }
