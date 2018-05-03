@@ -23,17 +23,9 @@
           <img src="{{response.solutionMediaUrl}}" width="90%">
           {{/if}}
           <p>{{response.solutionText}}</p>
-
-          {{#if response.isCorrect}}
           <div>
             <a href="/contestant/{{contestant_id}}/answer_questions" class="btn btn-primary">Next question</a>
           </div>
-          {{else}}
-          <div>
-            <a href="/contestant/{{contestant_id}}/answer_questions" class="btn btn-primary disabled" disabled>Next question</a>
-          </div>
-          <div>Please submit a revised answer.</div>
-          {{/if}}
         </div>
       </div>
       </div>
