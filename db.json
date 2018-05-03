@@ -2230,7 +2230,340 @@
       ],
       "authorName": "jpalmer@lwsd.org",
       "pointValue": 5,
-      "category_name": "3rd Rock from the Sun"
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Mantle",
+      "solutionText": "The crust, the layer we live on, is the thinnest layer of the Earth, though we've never been deeper into the Earth than the crust. The mantle is the thickest layer, over 40 times thicker than the crust!",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "709",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "The layer of the Earth that is broken up into plates is the ______.",
+      "helpText": null,
+      "choices": [
+        "Crust",
+        "Inner Core",
+        "Outer Core",
+        "Mantle"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Crust",
+      "solutionText": "Tectonic plates are what geologists call the giant pieces of the crust that float on top of the mantle. They move at about the same speed our fingernails grow: a few centimeters each year.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "710",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "As you move from the surface of the Earth towards the center of the Earth, the temperature of the layers ______.",
+      "helpText": null,
+      "choices": [
+        "Stays the Same",
+        "Increases",
+        "Decreases"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Increases",
+      "solutionText": "Because of the increased pressure and the left-over heat from when the Earth formed, the temperature inside the Earth increases as you get closer to its center.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "711",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "What does the Theory of Plate Tectonics state?",
+      "helpText": null,
+      "choices": [
+        "The Earth's crust is broken into plates that move",
+        "The continents used to be together in one continent called Pangea",
+        "The continents are moving",
+        "The ocean floor is spreading apart at a mid-ocean ridge"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "The Earth's crust is broken into plates that move",
+      "solutionText": "While all of the statements are true, only one is what the Theory of Plate Tectonics actually says. Pangea is a result of plate tectonics, but isn't actually a part of the theory itself. The spreading of the ocean floor is also a result of plate tectonics, but a good scientific Theory explains a wide variety of phenomena, not just one specific observation.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "712",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "The flow of heat from Earth's interior to the surface is estimated at 47 terawatts (TW) and comes from two main sources in roughly equal amounts: the radiogenic heat produced by the radioactive decay of isotopes in the mantle and crust, and the primordial heat left over from the formation of the Earth.",
+      "helpText": null,
+      "choices": [
+        "Heat left over from the Earth's formation",
+        "Sun (solar radiation)",
+        "Rocks undergoing radioactive decay"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Sun (solar radiation)",
+      "solutionText": "While all of the statements are true, only one is what the Theory of Plate Tectonics actually says. Pangea is a result of plate tectonics, but isn't actually a part of the theory itself. The spreading of the ocean floor is also a result of plate tectonics, but a good scientific Theory explains a wide variety of phenomena, not just one specific observation.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "713",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "Which is the type of boundary where two plates move toward each other?",
+      "helpText": null,
+      "choices": [
+        "Convergent",
+        "Divergent",
+        "Transform"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Convergent",
+      "solutionText": "To converge means to come together (or against), so a convergent boundary is where two tectonic plates are moving toward (into) each other. This is currently happening off the coast of Washington State where the North American plate is colliding into the Juan de Fuca plate.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "714",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "Which is type of boundary where two plates move away from each other?",
+      "helpText": null,
+      "choices": [
+        "Convergent",
+        "Divergent",
+        "Transform"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Divergent",
+      "solutionText": "To diverge means to move away (in two different directions) from each other, so a divergent boundary is where two tectonic plates move away from each other. This is rarer to see, but is happening at the mid-Atlantic ridge in the middle of the Atlantic Ocean and is responsible for the separation of Africa and South America.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "715",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "Which surface feature is formed at a continental-continental convergent plate boundary?",
+      "helpText": null,
+      "choices": [
+        "Trench",
+        "Non-volcanic mountains",
+        "Mid-ocean ridge",
+        "Volcanic Mountains"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Non-volcanic mountains",
+      "solutionText": "When two continental plate come together, they will push each other up because they are the same density (one can't easily go underneath another). This will form folds in the crust that will eventually be mountains, but since there is no magma involved in the mountains' formation, they are non-volcanic.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "716",
+      "mediaUrl": "https://drive.google.com/uc?id=1YAAII09n8znGExepbs7O9tygUlFOCh7o",
+      "mediaType": "image",
+      "text": "Hot spot volcanoes are usually found",
+      "helpText": null,
+      "choices": [
+        "Near a plate boundary",
+        "Far from a plate boundary"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Far from a plate boundary",
+      "solutionText": "Hot spots form in the mantle and create a plume of magma that melts its way through part of the crust, forming a volcano. Because of the other activity at plate boundaries, hot spots usually only form volcanoes away from plate boundaries.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "717",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "What is the primary way the inner core transfers heat energy?",
+      "helpText": null,
+      "choices": [
+        "Radiation",
+        "Conduction",
+        "Convection"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Conduction",
+      "solutionText": "Because the inner core is sold, conduction is the primary method of heat energy transfer. Solids can't convect since they aren't fluids and while solids can radiate into a gas like the air, they don't radiate within themselves.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "718",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "What is the primary way the outer core transfers heat energy?",
+      "helpText": null,
+      "choices": [
+        "Conduction",
+        "Convection",
+        "Radiation"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Convection",
+      "solutionText": "Because the outer core is a liquid, it can create convection currents. The heat from the inner core comes into contact with the outer core, heating it up, causing it to become less dense than the rest of the outer core. This less dense portion begins to rise away from the Earth's center. Once it gets far enough away from the source of heat, it cools again, becomes more dense, and begins to sink. This process repeats, creating convection cells in the outer core.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "719",
+      "mediaUrl": "https://drive.google.com/uc?id=1WE394MErM0O4COtXuORlVRIkAwRsnRyL",
+      "mediaType": "image",
+      "text": "The Puget Sound and Lake Washington were formed by",
+      "helpText": null,
+      "choices": [
+        "A river",
+        "A volcano",
+        "A glacier"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "A glacier",
+      "solutionText": "The north-south direction of the Puget Sound and Lake Washington, as well as their depth, are characteristic of being carved by glaciers. All the small, odd-shaped islands in Puget Sound can also be explained by a glacier advancing and retreated many times over thousands of years.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "720",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "Which of the following is an example of a constructive process?",
+      "helpText": null,
+      "choices": [
+        "Lava cools at a hot spot",
+        "A river carries sediment downstream",
+        "An earthquake creates a fissure in the ground"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Lava cools at a hot spot",
+      "solutionText": "While lava and volcano eruptions can be destructive to humans, the lava cooling is forming new rock, which is constructing something new.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "721",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "The inner core is solid because",
+      "helpText": null,
+      "choices": [
+        "Pressure from the weight of the surrounding layers prevents the inner core from melting",
+        "The surrounding outer layers act as a blanket to insulate the core",
+        "It is composed of iron and nickel",
+        "None of these, for the inner core is not solid, it is a liquid"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Pressure from the weight of the surrounding layers prevents the inner core from melting",
+      "solutionText": "The inner core is the hottest of all the Earth's layers. Based on its temperature, the inner core should be a liquid. However, pressure also influences the phase of a substance and the incredibly high pressures at the center of the Earth are enough to force the inner core to be a solid, even though it's the hottest layer.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "722",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "Which of the following is NOT an example of weathering & erosion?",
+      "helpText": null,
+      "choices": [
+        "Wind knocking a tree down",
+        "Waves breaking apart rocks on a beach",
+        "River carving out a canyon",
+        "Sand carried by wind smoothing rocks"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Wind knocking a tree down",
+      "solutionText": "Weathering is when rock is broken down and worn away while erosion is the process that carries those broken down pieces of rock away from where they were. While wind knocking down a tree is destructive, it isn't connected to rock at all and therefore is not an example of weathering or erosion.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "723",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "HOW are the ages or rocks on the ocean floor evidence for seafloor spreading?",
+      "helpText": null,
+      "choices": [
+        "The younger rock is in the middle of the ocean and the older rock is near the edges of the ocean",
+        "The older rock used to be where the younger rock is now, showing that the rock has moved",
+        "The younger rock is in the middle of the ocean and the older rock is near the edges of the ocean",
+        "The older rock is in the middle of the ocean and the younger rock is near the edges of the ocean"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "The older rock used to be where the younger rock is now, showing that the rock has moved",
+      "solutionText": "The oldest rock is farthest from the center of the Atlantic Ocean, while the youngest rock is near the middle (the mid-Atlantic ridge). This shows that the rock that is older now, was formed where the younger rock is now. In order for the rock to be located farther away from the mid-Atlantic ridge, it must have moved, being replaced with younger rock. This process is known as seafloor spreading.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "724",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "Convection in the Earth's mantle is related to the movement of tectonic plates. What phase of matter is in the mantle?",
+      "helpText": null,
+      "choices": [
+        "Solid",
+        "Gas",
+        "Liquid"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Solid",
+      "solutionText": "Even though it's a solid, the mantle can flow, which allows it to convect. We don't usually think of a solid as having the ability to flow, but the chemical composition, pressure, and temperature of the mantle allow it to move very slowly.",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "725",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "What is the primary way geologists know the phase, thickness, and composition of the layers of the Earth?",
+      "helpText": null,
+      "choices": [
+        "Earthquake waves bending as they move through the Earth's layers",
+        "Geologists do not know what's inside the Earth, it's just a theory",
+        "Analyzing lava from volcanoes",
+        "Drilling into the Earth and observing the layers"
+      ],
+      "authorName": "jpalmer@lwsd.org",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun",
+      "solution": "Earthquake waves bending as they move through the Earth's layers",
+      "solutionText": "Earthquakes produce Primary (P) and Secondary (S) waves. S waves cannot travel through liquids, so when they run into a liquid layer in the Earth, the waves stop. Scientists can use this, along with the changing angles P waves travel through the Earth, to determine the key characteristics of the Earth's layers.\n",
+      "solutionMediaUrl": "",
+      "correct": true
     },
     {
       "id": "b12",
@@ -2940,5 +3273,5 @@
       "icon": "AstroAdventures!"
     }
   ],
-  "points": 636
+  "points": 1980
 }
