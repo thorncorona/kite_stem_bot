@@ -1305,7 +1305,7 @@
       "solution": "Turn it into a black hole",
       "solutionText": "Gravity is always pulling toward the center of an object, trying to collapse a star in on itself, making the star smaller. In high mass stars, this could result in the formation of a black hole, but most stars don't have enough mass for this to happen. Even in these smaller stars, gravity is still pulling the star in on itself.",
       "solutionMediaUrl": "",
-      "correct": false
+      "correct": true
     },
     {
       "id": "770",
@@ -1462,7 +1462,7 @@
       "solution": "24",
       "solutionText": "4!=4(3)(2)(1)",
       "solutionMediaUrl": "",
-      "correct": false
+      "correct": true
     },
     {
       "id": "132",
@@ -1483,7 +1483,7 @@
       "solution": "2x(x-5)(x+5)",
       "solutionText": "First factor out the GCF (2x).  Difference of 2 squares is left.",
       "solutionMediaUrl": "",
-      "correct": false
+      "correct": true
     },
     {
       "id": "133",
@@ -1622,7 +1622,7 @@
       "solution": "11 am",
       "solutionText": "11:00 am. If 3 hours from now is 1:00 am tomorrow, it must be 10:00 pm. And 11 hours before 10 pm is 11 am.",
       "solutionMediaUrl": "",
-      "correct": false
+      "correct": true
     },
     {
       "id": "136",
@@ -1914,7 +1914,7 @@
       "solution": "Nebula, protostar, main sequence, red giant, black hole",
       "solutionText": "All stars begin their lives as nebulas (huge clouds of gas and dust in space). Gravity pulls the gas & dust together forming a ball called a protostar. Once the pressure from the growing protostar's mass is high enough it will begin fusing hydrogen into helium and become a main sequence star, giving off visible light, like our Sun. Once the hydrogen fuel is used it, the star will expand to a red giant and start fusing helium. If the star is massive enough it will fuse until it can't fuse any more elements, explode into a supernova, leaving behind a black hole.",
       "solutionMediaUrl": "",
-      "correct": false
+      "correct": true
     },
     {
       "id": "124",
@@ -2123,118 +2123,6 @@
       "correct": true
     },
     {
-      "id": "863",
-      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
-      "mediaType": "image",
-      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
-      "helpText": null,
-      "choices": [
-        "Equitorial",
-        "Continental Polar",
-        "Maritime Polar",
-        "Continental Tropical"
-      ],
-      "authorName": "Timothy McFaul",
-      "pointValue": 5,
-      "category_name": "3rd Rock from the Sun"
-    },
-    {
-      "id": "863",
-      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
-      "mediaType": "image",
-      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
-      "helpText": null,
-      "choices": [
-        "Maritime Polar",
-        "Continental Tropical",
-        "Continental Polar",
-        "Equitorial"
-      ],
-      "authorName": "Timothy McFaul",
-      "pointValue": 5,
-      "category_name": "3rd Rock from the Sun"
-    },
-    {
-      "id": "863",
-      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
-      "mediaType": "image",
-      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
-      "helpText": null,
-      "choices": [
-        "Continental Tropical",
-        "Continental Polar",
-        "Maritime Polar",
-        "Equitorial"
-      ],
-      "authorName": "Timothy McFaul",
-      "pointValue": 5,
-      "category_name": "3rd Rock from the Sun"
-    },
-    {
-      "id": "863",
-      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
-      "mediaType": "image",
-      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
-      "helpText": null,
-      "choices": [
-        "Continental Tropical",
-        "Continental Polar",
-        "Equitorial",
-        "Maritime Polar"
-      ],
-      "authorName": "Timothy McFaul",
-      "pointValue": 5,
-      "category_name": "3rd Rock from the Sun"
-    },
-    {
-      "id": "863",
-      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
-      "mediaType": "image",
-      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
-      "helpText": null,
-      "choices": [
-        "Continental Polar",
-        "Continental Tropical",
-        "Maritime Polar",
-        "Equitorial"
-      ],
-      "authorName": "Timothy McFaul",
-      "pointValue": 5,
-      "category_name": "3rd Rock from the Sun"
-    },
-    {
-      "id": "863",
-      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
-      "mediaType": "image",
-      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
-      "helpText": null,
-      "choices": [
-        "Continental Polar",
-        "Maritime Polar",
-        "Continental Tropical",
-        "Equitorial"
-      ],
-      "authorName": "Timothy McFaul",
-      "pointValue": 5,
-      "category_name": "3rd Rock from the Sun"
-    },
-    {
-      "id": "863",
-      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
-      "mediaType": "image",
-      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
-      "helpText": null,
-      "choices": [
-        "Equitorial",
-        "Maritime Polar",
-        "Continental Polar",
-        "Continental Tropical"
-      ],
-      "authorName": "Timothy McFaul",
-      "pointValue": 5,
-      "category_name": "3rd Rock from the Sun"
-    },
-    {
       "id": "860",
       "mediaUrl": "",
       "mediaType": null,
@@ -2274,7 +2162,7 @@
       "solution": "Thermosphere, Mesosphere, Stratosphere, Troposphere",
       "solutionText": "Thermosphere: highest level of very thin air, Mesosphere: second highest level, Stratosphere: second lowest level, about the altitude planes fly in, Troposphere: the lowest level, the one that we live in.  ",
       "solutionMediaUrl": "",
-      "correct": false
+      "correct": true
     },
     {
       "id": "707",
@@ -2297,38 +2185,6 @@
       "correct": true
     },
     {
-      "id": "708",
-      "mediaUrl": "",
-      "mediaType": null,
-      "text": "The thickest layer of the Earth is the ______.",
-      "helpText": null,
-      "choices": [
-        "Crust",
-        "Outer Core",
-        "Mantle",
-        "Inner Core"
-      ],
-      "authorName": "jpalmer@lwsd.org",
-      "pointValue": 5,
-      "category_name": "3rd Rock from the Sun"
-    },
-    {
-      "id": "708",
-      "mediaUrl": "",
-      "mediaType": null,
-      "text": "The thickest layer of the Earth is the ______.",
-      "helpText": null,
-      "choices": [
-        "Outer Core",
-        "Mantle",
-        "Crust",
-        "Inner Core"
-      ],
-      "authorName": "jpalmer@lwsd.org",
-      "pointValue": 5,
-      "category_name": "3rd Rock from the Sun"
-    },
-    {
       "id": "863",
       "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
       "mediaType": "image",
@@ -2341,6 +2197,38 @@
         "Maritime Polar"
       ],
       "authorName": "Timothy McFaul",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun"
+    },
+    {
+      "id": "863",
+      "mediaUrl": "https://drive.google.com/uc?id=1lok_l5viSCNcuPfzk3j1bpIRC4S2AuvG",
+      "mediaType": "image",
+      "text": "What type of air mass originates in the ocean off the coast of Alaska?",
+      "helpText": null,
+      "choices": [
+        "Equitorial",
+        "Continental Tropical",
+        "Continental Polar",
+        "Maritime Polar"
+      ],
+      "authorName": "Timothy McFaul",
+      "pointValue": 5,
+      "category_name": "3rd Rock from the Sun"
+    },
+    {
+      "id": "708",
+      "mediaUrl": "",
+      "mediaType": null,
+      "text": "The thickest layer of the Earth is the ______.",
+      "helpText": null,
+      "choices": [
+        "Inner Core",
+        "Crust",
+        "Mantle",
+        "Outer Core"
+      ],
+      "authorName": "jpalmer@lwsd.org",
       "pointValue": 5,
       "category_name": "3rd Rock from the Sun"
     }
@@ -2927,5 +2815,5 @@
       "icon": "AstroAdventures!"
     }
   ],
-  "points": 489
+  "points": 549
 }

@@ -209,16 +209,17 @@ app.get('/contestant/:id/answer_questions', async (req, res) => {
       question = question[0];
       
       let dbSearch = db.get('questions').find({id: question.id}).value();
-      if(dbSearch != undefined && dbSearch != null && dbSearch.correct == true) {
+      if(dbSearch != undefined && dbSearch != null && dbSearch.solution != undefined && dbSearch.correct == true) {
         let form = {
           "contestantId": contestant.contestant_id,
-          "answer": dbSearch.answer,
+          "answer": dbSearch.solution,
           "category": dbSearch.category_name,
           "currentLocationLatitude": (47.6761822 + Math.random() * 0.00001),
           "currentLocationLongitude": (-122.2029642 + Math.random() * 0.00001),
           "locationName": "Peter Kirk Park"
         } 
       
+        console.log('http://35.230.22.110/api/questions/' + dbSearch.id + '/submissions', form)
         let response = await request.post('http://35.230.22.110/api/questions/' + dbSearch.id + '/submissions', {form: form})
         response = JSON.parse(response);
       
@@ -230,7 +231,9 @@ app.get('/contestant/:id/answer_questions', async (req, res) => {
         console.log('loop');
       } else {
         question['category_name'] = category.name;
-        db.get('questions').push(question).write();
+        if(dbSearch == undefined) {
+          db.get('questions').push(question).write();
+        }
         break;
       }
     } 
@@ -276,7 +279,7 @@ app.post('/contestant/:id/submit_question', async (req, res) => {
       solution: response.correctValue,
       solutionText: response.solutionText,
       solutionMediaUrl: response.solutionMediaUrl,
-      correct: false,
+      correct: true,
     }).write()
   };
 
