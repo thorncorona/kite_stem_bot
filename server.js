@@ -219,7 +219,7 @@ app.get('/contestant/:id/answer_questions', async (req, res) => {
           "locationName": "Peter Kirk Park"
         } 
       
-        let response = await request.post('http://35.230.22.110/api/questions/' + req.body.question_id + '/submissions', {form: form})
+        let response = await request.post('http://35.230.22.110/api/questions/' + dbSearch.id + '/submissions', {form: form})
         response = JSON.parse(response);
       
         console.log(response);
