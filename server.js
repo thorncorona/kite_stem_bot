@@ -226,7 +226,7 @@ app.get('/contestant/:id/answer_questions', async (req, res) => {
         console.log(response);
       
         db.update('points', n => n + parseInt(response.score)).write();
-        await sleep(100 + Math.floor(Math.random() * 432));
+        await sleep(500 + Math.floor(Math.random() * 432));
         i--;
         console.log('loop');
       } else {
