@@ -22,7 +22,7 @@
           {{#if response.solutionMediaUrl}}
           <img src="{{response.solutionMediaUrl}}" width="90%">
           {{/if}}
-          <p>{{response.solutionText}}</p>
+          <p>{{{response.solutionText}}}</p>
           <div>
             <a href="/contestant/{{contestant_id}}/answer_questions" class="btn btn-primary">Next question</a>
           </div>
@@ -43,7 +43,7 @@
             {{/ifCond}}
           {{/ifCond}}
 
-          <p>{{orig_question.text}}</p>
+          <p>{{{orig_question.text}}}</p>
           <p class="font-weight-light">{{orig_question.helpText}}</p>
 
           <form action="/contestant/{{contestant_id}}/revise_answer" method="POST">

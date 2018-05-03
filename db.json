@@ -2231,6 +2231,131 @@
       "authorName": "jpalmer@lwsd.org",
       "pointValue": 5,
       "category_name": "3rd Rock from the Sun"
+    },
+    {
+      "id": "b12",
+      "mediaUrl": null,
+      "mediaType": null,
+      "text": "<p><strong>Factorials</strong></p>\n<p><img src=\"https://drive.google.com/uc?id=1gt3Ms_OpKBH8HqE7V4vXoTp-AGooE6hO\" alt=\"\" />  </p>\n<p>Note: The exclamation points are all factorials:  \\[6! = 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1.\\]</p>",
+      "helpText": null,
+      "choices": [
+        "2",
+        "1/2",
+        "1/3",
+        "1"
+      ],
+      "authorName": "Brilliant.org",
+      "pointValue": 5,
+      "category_name": "Algebra Through Puzzles: A Preview of Challenges to Come",
+      "solution": "1/2",
+      "solutionText": "<p>First, expand the factorials:</p>\n<p><img src=\"https://d18l82el6cdm1i.cloudfront.net/uploads/zkrdBgnmb0-expand1.png\" alt=\"\" /></p>\n<p>Then cancel like terms:</p>\n<p><img src=\"https://d18l82el6cdm1i.cloudfront.net/uploads/zKDeZnlnLA-expand2.png\" alt=\"\" /></p>\n<p>Leaving us with:</p>\n<p><img src=\"https://d18l82el6cdm1i.cloudfront.net/uploads/niGBfo5dP7-expand3.png\" alt=\"\" /></p>\n<p>There's still more that can cancel. Factor what's left as much as possible:</p>\n<p><img src=\"https://d18l82el6cdm1i.cloudfront.net/uploads/C8FTlgKHFR-expand4.png\" alt=\"\" /></p>\n<p>Then cancel like terms one more time:</p>\n<p><img src=\"https://d18l82el6cdm1i.cloudfront.net/uploads/v5PfLBYmTu-expand5.png\" alt=\"\" /></p>\n<p>leaving an answer of \\( 1 .\\)</p>\n<p>Note: It would have been painful if we calculated that \\( 7 ! = 5040 \\) and that \\( 10 ! = 3628800 \\).</p>",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "b13",
+      "mediaUrl": null,
+      "mediaType": null,
+      "text": "<p><strong>Rates & Ratios</strong></p>\n<p><img src=\"https://ksu3tf.s3-us-west-2.amazonaws.com/k7lLfM5WE0.png|width=80\" alt=\"\" /></p>\n<p>It takes 4 cooks 4 hours to bake 4 cakes. Assuming no change of rate, how many hours will it take 8 cooks to bake 8 cakes?</p>",
+      "helpText": null,
+      "choices": [
+        "2",
+        "1",
+        "4",
+        "8"
+      ],
+      "authorName": "Brilliant.org",
+      "pointValue": 5,
+      "category_name": "Algebra Through Puzzles: A Preview of Challenges to Come",
+      "solution": "4",
+      "solutionText": "<p>When considering a problem like this, we are interested in measuring the amount of man-hours (or cook-hours) that it takes to produce a cake. Four cooks all working for four hours will produce 16 cook-hours of work. Therefore, the relationship between cakes and work is\n\\[\\dfrac{16\\text{ cook-hours}}{4\\text{ cakes}} = \\dfrac{4\\text{ cook-hours}}{\\text{ cake}}.\\]\nOnce we understand the relationship between work and cakes, we can use the equation\n\\[\\dfrac{(h)(C)}{c}=4,\\]\nwhere \\(h\\) is the number of hours, \\(C\\) is the number of cooks, and \\(c\\) is the number of cakes.</p>\n<p>Plugging in gives us\n\\[\\dfrac{(h)(8)}{8}=4\\implies h=4.\\]</p>",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "b14",
+      "mediaUrl": null,
+      "mediaType": null,
+      "text": "<p><strong>Sequences and Series</strong></p>\n<p><img src=\"https://d18l82el6cdm1i.cloudfront.net/solvable/cc495e0502.3207537b18.Ob7B5v.gif\" alt=\"\" />  </p>\n<p>How many line-segments are there in the \\(4^\\text{th}\\) image of this growing tree sequence? </p>\n<p><img src=\"https://d18l82el6cdm1i.cloudfront.net/uploads/6PtGrjbfII-screen-shot-2015-08-14-at-110558-am.png\" alt=\"\" /></p>",
+      "helpText": null,
+      "choices": [
+        "14",
+        "16",
+        "15",
+        "17"
+      ],
+      "authorName": "Brilliant.org",
+      "pointValue": 5,
+      "category_name": "Algebra Through Puzzles: A Preview of Challenges to Come",
+      "solution": "15",
+      "solutionText": "<p>SOLUTION 1:</p>\n<p>In the first image in the sequence, there's only one line segment.  In the next image, this branch splits adding 2 line segments to the picture.  Then each of those splits adding 4 more. A final split adds 8 more small branches: \\(1 + 2 + 4 + 8 = \\fbox{15}.\\)</p>\n<p><img src=\"https://d18l82el6cdm1i.cloudfront.net/uploads/zCuUU6zwMA-screen-shot-2015-08-13-at-61037-pm.png\" alt=\"\" /></p>\n<p>SOLUTION 2:</p>\n<p>In the previous tree, there are 7 branches.  This tree is made up of two copies of that previous tree branching off of a new trunk:  \\((7 \\times 2) + 1 = \\fbox{15}.\\)</p>\n<p><img src=\"https://d18l82el6cdm1i.cloudfront.net/uploads/H07hNyQWjI-screen-shot-2015-08-13-at-71604-pm.png\" alt=\"\" /></p>\n<p>So each tree has twice as many branches as the last tree, plus 1 new trunk, resulting in the sequence\n\\[1, 3, 7, 15, \\ldots.\\]</p>",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "b15",
+      "mediaUrl": null,
+      "mediaType": null,
+      "text": "<p><strong>Proving Algebraic Identities</strong></p>\n<p>What is the sum of the first 13 positive odd numbers? </p>\n<p>A big hint: </p>\n<p><img src=\"https://d18l82el6cdm1i.cloudfront.net/uploads/WUrmG3yYrt-group10.svg|width=300\" alt=\"\" /></p>",
+      "helpText": null,
+      "choices": [
+        "169",
+        "144",
+        "49",
+        "180"
+      ],
+      "authorName": "Brilliant.org",
+      "pointValue": 5,
+      "category_name": "Algebra Through Puzzles: A Preview of Challenges to Come",
+      "solution": "169",
+      "solutionText": "<p>The sum of the first \\(n\\) odd numbers is \\(n^2\\)<br />\nA visualization of this claim:</p>\n<p><img src=\"https://d18l82el6cdm1i.cloudfront.net/uploads/NkBBTzSLzc-group9.svg|width=600\" alt=\"\" /></p>\n<p>Therefore, the sum of the first 13 odd numbers is \\(13^2=169.\\)</p>\n<p><strong>A Quick Proof:</strong></p>\n<p>Consider that the positive even numbers are those of the form \\(2n\\), where \\(n\\) can be any positive integer, starting with \\(n=1\\).  Similarly, the odd numbers are, in turn, numbers of the form \\(2n-1\\), again where \\(n\\) can be any positive integer, starting with \\(n=1\\).</p>\n<p>Here is a quick inductive proof that the sum of the first \\(n\\) odd numbers is \\(n^2\\):</p>\n<p>Observe that \\((n-1)^2 + (2n-1) = n^2 \\).  Since \\(2n-1\\) is the \\(n^\\text{th}\\) odd number, if the statement is true for \\(n\\), it's now proven to also be true for \\(n+1\\).  Clearly, the statement holds true for \\(n=1\\), so that can be our base case.  And inductive reasoning takes over from there!</p>",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "b16",
+      "mediaUrl": null,
+      "mediaType": null,
+      "text": "<p><strong>Help Us Avoid Proving That 1=2</strong></p>\n<p>Let \\( a = b \\).</p>\n<p>Then,</p>\n<p><img src=\"https://drive.google.com/uc?id=1-njR-Coh-rRkLKbL3KlaQgELyQ-_S3mj\" alt=\"\" />  </p>\n<p>Which line is the <strong>first</strong> that contains an error in this proof?</p>",
+      "helpText": null,
+      "choices": [
+        "Line 5",
+        "Line 3",
+        "Line 4",
+        "Line 7",
+        "There is no flaw.",
+        "Line 2",
+        "Line 1",
+        "Line 6",
+        "There is no flaw."
+      ],
+      "authorName": "Brilliant.org",
+      "pointValue": 5,
+      "category_name": "Algebra Through Puzzles: A Preview of Challenges to Come",
+      "solution": "Line 4",
+      "solutionText": "<p>Line 4 was achieved by involves dividing both sides of the equal sign by \\( a-b \\). However, since \\( a = b ,\\) \\( a - b = 0 ,\\) so this step involves dividing by zero.</p>\n<p>By allowing the act of dividing by zero, the nonsensical statement \\(1 = 2\\) was a result.</p>",
+      "solutionMediaUrl": "",
+      "correct": true
+    },
+    {
+      "id": "b487",
+      "mediaUrl": null,
+      "mediaType": null,
+      "text": "<p>The problems in this category should be done <em>mentally</em>. There are tricks that help with each one. Be creative!</p>\n<p>Evaluate:  762 + 349= ?</p>",
+      "helpText": null,
+      "choices": [
+        "1112",
+        "1212",
+        "1111",
+        "1213"
+      ],
+      "authorName": "Brilliant.org",
+      "pointValue": 5,
+      "category_name": "Algebra Through Puzzles: Arithmetic Tricks I",
+      "solution": "1111",
+      "solutionText": "<p><strong>Possible Trick #1:</strong></p>\n<p>Separate the sum into parts that are easier to add:\n762 + 349\n= 700 + 300 + 60 + 40 + 2 + 9 \n= 1000 + 100 + 11 \n= 1111</p>\n<p><strong>Possible Trick #2:</strong></p>\n<p>Take 1 away from 762 and add it to 349, creating more convenient numbers:\n762 + 349 \n= 762 - 1 + 349 + 1 \n= 761 + 350 \n= 1111</p>",
+      "solutionMediaUrl": "",
+      "correct": true
     }
   ],
   "categories": [
@@ -2815,5 +2940,5 @@
       "icon": "AstroAdventures!"
     }
   ],
-  "points": 549
+  "points": 636
 }

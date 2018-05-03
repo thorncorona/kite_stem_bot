@@ -6,6 +6,8 @@ const path = require('path');
 const moment = require('moment');
 const minifyHTML = require('express-minify-html');
 const mcache = require('memory-cache');
+const showdown = require('showdown');
+let converter = new showdown.Converter();
 
 const request = require('request-promise');
 
@@ -226,11 +228,12 @@ app.get('/contestant/:id/answer_questions', async (req, res) => {
         console.log(response);
       
         db.update('points', n => n + parseInt(response.score)).write();
-        await sleep(500 + Math.floor(Math.random() * 432));
+        let wait = await sleep(1000 + Math.floor(Math.random() * 432));
         i--;
         console.log('loop');
       } else {
         question['category_name'] = category.name;
+        question.text = converter.makeHtml(question.text);
         if(dbSearch == undefined) {
           db.get('questions').push(question).write();
         }
@@ -238,7 +241,6 @@ app.get('/contestant/:id/answer_questions', async (req, res) => {
       }
     } 
   }
-
 
   res.render('answer_questions', {
     title: 'Answer Questions',
@@ -265,6 +267,8 @@ app.post('/contestant/:id/submit_question', async (req, res) => {
   response = JSON.parse(response);
 
   console.log(response);
+
+  response.solutionText = converter.makeHtml(response.solutionText);
 
   db.update('points', n => n + parseInt(response.score)).write();
   if(response.isCorrect) {
