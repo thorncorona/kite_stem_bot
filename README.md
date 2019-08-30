@@ -1,4 +1,4 @@
-# Clobotics Website
+# Kite Stem Bot
 
 ## Getting Started
 1. Install Node 8
