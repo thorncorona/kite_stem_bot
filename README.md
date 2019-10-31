@@ -41,24 +41,6 @@ Pages do not auto-compile to HTML  - they must be linked to a URL within the `se
 
 App is configured to default to `layout`, so not using the layout parameter is the same as setting `layout` to `main`
 
-Example: 
-```javascript
-app.get('/', cache(3600 * 24), function (req, res) {
-  res.render('index', {
-    layout: 'main'
-    title: 'Clobotics: Machine Learning for Your Business',
-    page: 'index-page'
-  });
-});
-
-app.get('/', cache(3600 * 24), function (req, res) {
-  res.render('index', {
-    title: 'Clobotics: Machine Learning for Your Business',
-    page: 'index-page'
-  });
-});
-```
-
 `views/partials` - small templates that can be reused provided the `{{  $param   }}` params are filled in
 
 ### DB.JSON
